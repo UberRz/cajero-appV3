@@ -4,10 +4,10 @@
     <div class="header">
       <h1>Banco UN</h1>
         <nav>
-          <button v-on:click="init" v-if="is_auth" > Inicio </button> 
-          <button v-on:click="getBalance" v-if="is_auth" > Saldo </button> 
-          <button v-if="is_auth" > Transacción </button>
-          <button v-if="is_auth" >Cerrar Sesión</button>
+          <button v-on:click= "init" v-if= "is_auth" > Inicio </button> 
+          <button v-on:click= "getBalance" v-if= "is_auth" > Saldo </button> 
+          <button v-if= "is_auth" > Transacción </button>
+          <button v-if= "is_auth" >Cerrar Sesión</button>
         </nav>
       </div>
 
@@ -21,7 +21,7 @@
   </div>
 
 </template>
-
+<!-- Comentario de prueba
 <!-- Representa el js (Comportamiento) -->
 <script>
   export default {
